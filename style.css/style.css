@@ -12,6 +12,7 @@ div.container{
     background-color: black;
     height: 100vh;
     width: 100vw;
+    padding-top: 6rem;
 }
 
 .flex{
@@ -32,4 +33,27 @@ div.container > ul li{
 
 div.container > ul li button{
     background-color: #494949;
+}
+
+div.container-webcam{
+    max-width: 1770px;
+    margin: 0 auto;
+}
+
+div.container-webcam > div.cam{
+    position: relative;
+    width: calc(100% / 7);
+}
+
+div.container-webcam > div.cam > img{
+    width: 100%;
+    height: 100%;
+}
+
+div.container-webcam > div.cam > span.name{
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    padding: 2px;
+    background-color: rgba(80, 70, 70, 0.6);
 }
