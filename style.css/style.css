@@ -10,11 +10,17 @@ div.container{
     position: relative;
 
     background-color: black;
-    padding-top: 3.5rem;
+    padding-top: 50px;
+    height: 100vh;
 }
 
 .flex{
     display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
 }
 
 .flex-wrap{
@@ -45,13 +51,13 @@ div.container-webcam{
     max-width: 1770px;
     margin: 0 auto;
     overflow: auto;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 140px);
 }
 
 div.container-webcam > div.cam{
     position: relative;
     width: calc(100% / 7);
-    padding: .35rem;
+    padding: 5px;
 }
 
 div.container-webcam > div.cam > img{
@@ -68,6 +74,23 @@ div.container-webcam > div.cam > span.name{
 }
 
 footer{
-    height: 64px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80px;
     background-color: #222222;
+    justify-content: space-between;
+}
+
+footer > div.microphone-webcam > div.microphone{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    line-height: 40px;
+}
+
+footer > div.microphone-webcam > div.microphone i{
+    font-size: 25px;
 }
