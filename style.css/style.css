@@ -83,14 +83,31 @@ footer{
     justify-content: space-between;
 }
 
-footer > div.microphone-webcam > div.microphone{
+footer div.icon{
     text-align: center;
     justify-content: center;
     align-items: center;
     padding: 15px;
-    line-height: 40px;
 }
 
-footer > div.microphone-webcam > div.microphone i{
-    font-size: 25px;
+footer  div.icon i{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+footer  div.arrow{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 30px;
+}
+
+footer div.esc-meeting{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #4a4a4a;
+}
+
+footer div.esc-meeting p{
+    color: red;
 }
