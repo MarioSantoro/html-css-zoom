@@ -3,4 +3,33 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cabin', sans-serif;
+    color: white;
+}
+
+div.container{
+    position: relative;
+
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex{
+    display: flex;
+}
+
+div.container > ul{
+    position: absolute;
+
+    top: 1.5%;
+    right: 0;
+    list-style-type: none;
+}
+
+div.container > ul li{
+    margin-right:.85rem;
+}
+
+div.container > ul li button{
+    background-color: #494949;
 }
