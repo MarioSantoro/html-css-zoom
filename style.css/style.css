@@ -10,8 +10,6 @@ div.container{
     position: relative;
 
     background-color: black;
-    height: calc(100vh - 100px);
-    width: 100vw;
     padding-top: 3.5rem;
 }
 
@@ -38,12 +36,16 @@ div.container > ul li{
 
 div.container > ul li button{
     background-color: #494949;
+    padding: .25rem;
+    border: none;
+    border-radius: 5px;
 }
 
 div.container-webcam{
     max-width: 1770px;
     margin: 0 auto;
-    padding-bottom: 2.5rem;
+    overflow: auto;
+    height: calc(100vh - 120px);
 }
 
 div.container-webcam > div.cam{
@@ -66,6 +68,6 @@ div.container-webcam > div.cam > span.name{
 }
 
 footer{
-    height: 100px;
+    height: 64px;
     background-color: #222222;
 }
