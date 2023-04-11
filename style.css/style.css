@@ -54,6 +54,10 @@ div.container-webcam{
     height: calc(100vh - 140px);
 }
 
+div.container-webcam::-webkit-scrollbar{
+    display: none;
+}
+
 div.container-webcam > div.cam{
     position: relative;
     width: calc(100% / 7);
